@@ -25,6 +25,10 @@ public abstract class Search {
      * Objective function to be optimized
      */
     protected FitnessFunction evalFunc;
+    public FitnessFunction getFitnessFunction()
+    {
+    	return this.evalFunc;
+    }
     /**
      * Random generator used in main search procedure
      */
